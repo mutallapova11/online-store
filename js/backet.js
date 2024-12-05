@@ -50,7 +50,8 @@ for (let i = 1; i <= 5; i++) {
     <p class="backet-count">count:${basket_json[i]['count']}</p>
     <p class="total-price">total price:${basket_json[i]['total_price']}</p>
     <div class="backet-button">
-         delete
+     <button>-</button>
+       <button>del</button>
     </div>
     `;
 
