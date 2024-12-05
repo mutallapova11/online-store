@@ -1,0 +1,48 @@
+
+.backet-container{
+    width: 80%;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin: 0 auto;
+    background-color: rgba(84, 70, 70, 0.187);
+    padding-top: 70px;
+}
+.backet {
+  
+    margin: 50px auto;
+    border-radius: 10px;
+    width: 98%;
+    font-size: 20px;
+    border: 1x solid black;
+}
+.backet-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10p;
+    border: 1px solid rgb(196, 174, 174);
+    height: 130px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.backet-img {
+    width: 4%;
+    padding-top: 20px;
+    object-fit: contain;
+    height: 100px;
+}
+
+.total-price {
+    color: red;
+}
+
+.backet-button {
+
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+}
+
