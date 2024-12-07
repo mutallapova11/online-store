@@ -339,3 +339,17 @@
 	color: #f0a500;
 
 }
+
+.menu{
+    background-color: #eaed27;
+    position: absolute;
+    width: 20%;
+    top: 8%;
+    padding: 20px;
+    font-size: 20px;
+    height: 92vh;
+    
+  }
+  .menu p{
+    padding-bottom: 10px;
+  }

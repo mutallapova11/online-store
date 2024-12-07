@@ -51,11 +51,25 @@ for (let i = 1; i <= 5; i++) {
     <p class="total-price">total price:${basket_json[i]['total_price']}</p>
     <div class="backet-button">
      <button>-</button>
-       <button>del</button>
+       <button class="delete">del</button>
     </div>
     `;
 
     backet.appendChild(div);
+   
+    div.querySelector("button").addEventListener("click", () => {
+        let countElement = div.querySelector(".basket-count span");
+        let totalPriceElement = div.querySelector(".total-price span");
+        let backet_price = document.querySelector('.backet-price')
+        let price = basket_json[i].backet-price;
+        let count = parseInt(countElement.textContent);
+    
+      });
+    
+      // Обработка кнопки удаления
+      div.querySelector(".delete").addEventListener("click", () => {
+        div.remove();
+      });
 }
 
 
