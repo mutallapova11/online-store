@@ -353,3 +353,7 @@
   .menu p{
     padding-bottom: 10px;
   }
+
+  .active{
+	color: #8000ff !important;
+  }
